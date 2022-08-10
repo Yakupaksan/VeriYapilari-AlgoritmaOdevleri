@@ -11,12 +11,12 @@
 9- 4 alınır ve 4 < 7, 4 < 5, 4 > 1, 4 > 3 olduğu için 3'ün sağına yazılır.
 10- 2 alınır ve 2 < 7, 2 < 5, 2 > 1, 2 < 3 olduğu için 3'ün soluna yazılır. Sonuç olarak.
 
-					7				
-       /		\			
-     5				8		
-  /		\				\	
-1				6				9
-     /		\							
-   0				3						
-         /		\					
-			 2				4	
+	  7				
+      /	    \			
+     5	      8		
+   /   \	\	
+  1     6	  9
+/    \							
+0     3						
+    /   \					
+   2	  4	
