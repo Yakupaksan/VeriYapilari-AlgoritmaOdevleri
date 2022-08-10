@@ -1,0 +1,22 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+1- 7 root olarak alınır.
+2- 7'den sonraki elemanlar sırasıyla seçilir. Seçilen elemenlar bir öncekinden küçükse soluna büyükse sağına yazılır.
+3- Öncelikle 5 alınır ve 5 < 7 den olduğu için soluna yazılır.
+4- 1 alınır ve 1 < 7 den ve 1 < 5'ten olduğu için 5'in soluna yazılır.
+5- 8 alınır ve 8 > 7 olduğu için 7'nin sağına yazılır.
+6- 3 alınır ve 3 < 7, 3 < 5, 3 > 1 olduğu için 1'in sağına yazılır.
+7- 6 alınır ve 6 < 7, 6 > 5 olduğu için 5'in sağına yazılır. 
+8- 9 alınır ve 9 > 7, 9 > 8 olduğu için 8'in sağına yazılır.
+9- 4 alınır ve 4 < 7, 4 < 5, 4 > 1, 4 > 3 olduğu için 3'ün sağına yazılır.
+10- 2 alınır ve 2 < 7, 2 < 5, 2 > 1, 2 < 3 olduğu için 3'ün soluna yazılır. Sonuç olarak.
+
+					7				
+       /		\			
+     5				8		
+  /		\				\	
+1				6				9
+     /		\							
+   0				3						
+         /		\					
+			 2				4	
