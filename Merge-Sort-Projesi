@@ -12,7 +12,7 @@
 
 ```
 
-2.
+2. Big-O gösterimini yazınız.
 ```
 O(nlog(n))
 
